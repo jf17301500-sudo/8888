@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支付页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+        }
+
+        .pay-button {
+            padding: 16px 64px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            background: #1677ff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .pay-button:hover {
+            background: #4096ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(22, 119, 255, 0.3);
+        }
+
+        .pay-button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <a href="https://mclient.alipay.com/h5pay/h5RouteAppSenior/index.html?server_param=emlkPTk5O25kcHQ9MmZjMTtjYz15&contextId=RZ42iuLhX1fyGGSaMsryB9GS1RNsXOmobileclientgw99RZ42&cookieToken=2eb57fe175be4534bb2805b253bf702b&pageToken=&refreshNoAuth=Y" class="pay-button">立即支付</a>
+</body>
+</html>
